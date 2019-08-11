@@ -35,7 +35,7 @@ public class PokerCompareTest {
 
     }
     @Test
-    public void  should_return_2win_given_2D3H4H5S6D_AND_4D5H6S7D8D(){
+    public void  should_return_list2_given_2D3H4H5S6D_AND_4D5H6S7D8D(){
         //given
         Poker poker1 = new Poker('2', 'D');
         Poker poker2 = new Poker('3', 'H');
@@ -53,6 +53,26 @@ public class PokerCompareTest {
         List<Poker> result = PokerCompare.comparePoker(list1,list2);
         //then
         Assert.assertEquals(list2,result);
+    }
+    @Test
+    public void  should_return_list2_given_AD3H4H5S6D_AND_KD5H6S7D8D(){
+        //given
+        Poker poker1 = new Poker('A', 'D');
+        Poker poker2 = new Poker('3', 'H');
+        Poker poker3 = new Poker('4', 'H');
+        Poker poker4 = new Poker('5', 'S');
+        Poker poker5 = new Poker('6', 'D');
+        List<Poker> list1=Arrays.asList(poker1,poker2,poker3,poker4,poker5);
+        Poker poker6 = new Poker('K', 'D');
+        Poker poker7 = new Poker('5', 'H');
+        Poker poker8 = new Poker('6', 'S');
+        Poker poker9 = new Poker('7', 'D');
+        Poker poker10 = new Poker('8', 'D');
+        List<Poker> list2=Arrays.asList(poker6,poker7,poker8,poker9,poker10);
+        //when
+        List<Poker> result = PokerCompare.comparePoker(list1,list2);
+        //then
+        Assert.assertEquals(list1,result);
     }
 
 }
