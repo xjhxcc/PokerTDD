@@ -15,6 +15,9 @@ public class PokerCompare {
         changeAllPokersNum(list1, list2);
         sortPoker(list1);
         sortPoker(list2);
+        if(isSameType(list1)||isSameType(list2)){
+            return isSameType(list1)?list1:list2;
+        }
         if(isStraight(list1)||isStraight(list2)){
             return isStraight(list1)?list1:list2;
         }
@@ -35,6 +38,15 @@ public class PokerCompare {
             }
         }
         return null;
+    }
+
+    private static boolean isSameType(List<Poker> list) {
+        for (int i = 0; i <list.size() ; i++) {
+            for (int j = i; j < list.size()-1; j++) {
+                return list.get(i).getType()==list.get(j).getType()?true:false;
+            }
+        }
+        return false;
     }
 
     private static boolean isStraight(List<Poker> list) {

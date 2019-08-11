@@ -167,5 +167,25 @@ public class PokerCompareTest {
         Assert.assertEquals(list1,result);
 
     }
+    @Test
+    public void should_return_list2_given_HDHSS_CCCCC(){
 
+        Poker poker1 = new Poker('3', 'H');
+        Poker poker2 = new Poker('4', 'D');
+        Poker poker3 = new Poker('5', 'H');
+        Poker poker4 = new Poker('6', 'S');
+        Poker poker5 = new Poker('7', 'S');
+        List<Poker> list1=Arrays.asList(poker1,poker2,poker3,poker4,poker5);
+        Poker poker6 = new Poker('4', 'C');
+        Poker poker7 = new Poker('8', 'C');
+        Poker poker8 = new Poker('4', 'C');
+        Poker poker9 = new Poker('3', 'C');
+        Poker poker10 = new Poker('Q', 'C');
+        List<Poker> list2=Arrays.asList(poker6,poker7,poker8,poker9,poker10);
+        //when
+        List<Poker> result = PokerCompare.comparePoker(list1,list2);
+        //then
+        Assert.assertEquals(list2,result);
+
+    }
 }
