@@ -11,10 +11,10 @@ public class PokerCompare {
         return poker1.getNum() >= poker2.getNum() ? poker1 : poker2;
     }
     public static List<Poker> comparePoker(List<Poker> list1, List<Poker> list2) {
-        for(int i = 0;i < list1.size();i++){
-            changePokerNum(list1.get(i));
-            changePokerNum(list2.get(i));
+        if(isPairPoker(list1)||isPairPoker(list2)){
+            return isPairPoker(list1)?list1:list2;
         }
+        changeAllPokersNum(list1, list2);
         sortPoker(list1);
         sortPoker(list2);
         Poker poker1;
@@ -27,6 +27,27 @@ public class PokerCompare {
             }
         }
         return null;
+    }
+    public static boolean isPairPoker(List<Poker> list){
+        int repeatCount = getRepeatCount(list);
+        return repeatCount==2?true:false;
+    }
+
+    private static int getRepeatCount(List<Poker> list) {
+        int repeatCount = 1;
+        for (int i = 0; i < list.size()-1; i++) {
+            if (list.get(i).getNum() == list.get(i + 1).getNum()) {
+                repeatCount++;
+            }
+        }
+        return repeatCount;
+    }
+
+    private static void changeAllPokersNum(List<Poker> list1, List<Poker> list2) {
+        for(int i = 0;i < list1.size();i++){
+            changePokerNum(list1.get(i));
+            changePokerNum(list2.get(i));
+        }
     }
 
     private static void sortPoker(List<Poker> list) {

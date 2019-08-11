@@ -93,5 +93,16 @@ public class PokerCompareTest {
         Assert.assertEquals(list2,result);
 
     }
+    @Test
+    public void testIsPairPoker(){
+        Poker poker6 = new Poker('4', 'S');
+        Poker poker7 = new Poker('4', 'D');
+        Poker poker8 = new Poker('2', 'S');
+        Poker poker9 = new Poker('3', 'C');
+        Poker poker10 = new Poker('Q', 'C');
+        List<Poker> list2=Arrays.asList(poker6,poker7,poker8,poker9,poker10);
+        boolean pairPoker = PokerCompare.isPairPoker(Arrays.asList(poker6, poker7, poker8, poker9, poker10));
+        Assert.assertEquals(true,pairPoker);
+    }
 
 }
