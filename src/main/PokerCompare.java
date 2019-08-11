@@ -12,6 +12,12 @@ public class PokerCompare {
         return poker1.getNum() >= poker2.getNum() ? poker1 : poker2;
     }
     public static List<Poker> comparePoker(List<Poker> list1, List<Poker> list2) {
+        changeAllPokersNum(list1, list2);
+        sortPoker(list1);
+        sortPoker(list2);
+        if(isStraight(list1)||isStraight(list2)){
+            return isStraight(list1)?list1:list2;
+        }
         if (isThreePoker(list1) || isThreePoker(list2)) {
             return isThreePoker(list1)?list1:list2;
         }
@@ -21,21 +27,23 @@ public class PokerCompare {
         if(isPairPoker(list1)&&isPairPoker(list2)){
             return getRepeatNum(list1)>getRepeatNum(list2)?list1:list2;
         }
-
-        changeAllPokersNum(list1, list2);
-        sortPoker(list1);
-        sortPoker(list2);
-        Poker poker1;
-        Poker poker2;
         for(int i = 0;i < list1.size();i++){
-            poker1 = list1.get(i);
-            poker2 = list2.get(i);
+           Poker poker1 = list1.get(i);
+           Poker poker2 = list2.get(i);
             if(comparePoker(poker1,poker2) != null){
                 return comparePoker(poker1,poker2) ==poker1 ? list1:list2;
             }
         }
         return null;
     }
+
+    private static boolean isStraight(List<Poker> list) {
+        for(int i = 0;i < list.size() - 1;i++) {
+            return list.get(i).getNum() - list.get(i + 1).getNum() == 1 ? true : false;
+        }
+        return false;
+    }
+
     public static boolean isPairPoker(List<Poker> list){
         char repeatCount = getRepeat(list).get(0);
         return repeatCount==2?true:false;
