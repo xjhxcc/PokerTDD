@@ -12,7 +12,9 @@ public class PokerCompare {
         return poker1.getNum() >= poker2.getNum() ? poker1 : poker2;
     }
     public static List<Poker> comparePoker(List<Poker> list1, List<Poker> list2) {
-
+        if (isThreePoker(list1) || isThreePoker(list2)) {
+            return isThreePoker(list1)?list1:list2;
+        }
         if(isPairPoker(list1)||isPairPoker(list2)){
             return isPairPoker(list1)?list1:list2;
         }
@@ -38,7 +40,10 @@ public class PokerCompare {
         char repeatCount = getRepeat(list).get(0);
         return repeatCount==2?true:false;
     }
-
+    public static boolean isThreePoker(List<Poker> list){
+        char repeatCount = getRepeat(list).get(0);
+        return repeatCount==3?true:false;
+    }
     private static Character getRepeatNum(List<Poker> list){
         List<Character> repeatList = getRepeat(list);
         return repeatList.get(1);

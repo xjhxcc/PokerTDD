@@ -28,13 +28,7 @@
       <change afterPath="$PROJECT_DIR$/../../mocking_exercise/.idea/modules.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../mocking_exercise/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../mocking_exercise/junit_test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PokerTDD/main/Poker.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PokerTDD/main/PokerCompare.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PokerTDD/main/PokerCompareTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PokerTDD/main/RepeatPoker.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/PokerCompare.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/PokerCompare.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/PokerCompareTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/PokerCompareTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -52,8 +46,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/PokerCompareTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-538">
-              <caret line="104" column="44" selection-start-line="104" selection-start-column="44" selection-end-line="104" selection-end-column="44" />
+            <state relative-caret-position="337">
+              <caret line="139" column="39" lean-forward="true" selection-start-line="139" selection-start-column="39" selection-end-line="139" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -83,12 +77,12 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/PokerCompare.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="40" column="4" selection-start-line="40" selection-start-column="4" selection-end-line="40" selection-end-column="4" />
+            <state relative-caret-position="400">
+              <caret line="29" column="44" lean-forward="true" selection-start-line="29" selection-start-column="44" selection-end-line="29" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1362#1373#0" expanded="true" />
-                <element signature="e#2271#2272#0" expanded="true" />
+                <element signature="e#2542#2543#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -307,9 +301,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PokerCompareTest_should_return_true_when_call_isPairPoker_given_4423Q - 2019.08.11 at 20h 05m 02s.xml">
-      <configuration name="PokerCompareTest.should_return_true_when_call_isPairPoker_given_4423Q" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="PokerCompareTest_should_return_true_when_call_isPairPoker_given_4423Q - 2019.08.11 at 20h 05m 15s.xml">
       <configuration name="PokerCompareTest.should_return_true_when_call_isPairPoker_given_4423Q" configurationId="JUnit" />
     </history-entry>
@@ -335,6 +326,9 @@
       <configuration name="PokerCompareTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="PokerCompareTest_should_return_list1_given_66K95_4443Q - 2019.08.11 at 20h 32m 41s.xml">
+      <configuration name="PokerCompareTest.should_return_list1_given_66K95_4443Q" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PokerCompareTest_should_return_list1_given_66K95_4443Q - 2019.08.11 at 20h 33m 04s.xml">
       <configuration name="PokerCompareTest.should_return_list1_given_66K95_4443Q" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -428,8 +422,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/PokerCompareTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-538">
-          <caret line="104" column="44" selection-start-line="104" selection-start-column="44" selection-end-line="104" selection-end-column="44" />
+        <state relative-caret-position="337">
+          <caret line="139" column="39" lean-forward="true" selection-start-line="139" selection-start-column="39" selection-end-line="139" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -438,12 +432,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/PokerCompare.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="40" column="4" selection-start-line="40" selection-start-column="4" selection-end-line="40" selection-end-column="4" />
+        <state relative-caret-position="400">
+          <caret line="29" column="44" lean-forward="true" selection-start-line="29" selection-start-column="44" selection-end-line="29" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1362#1373#0" expanded="true" />
-            <element signature="e#2271#2272#0" expanded="true" />
+            <element signature="e#2542#2543#0" expanded="true" />
           </folding>
         </state>
       </provider>
