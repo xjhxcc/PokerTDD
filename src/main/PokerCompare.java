@@ -1,5 +1,6 @@
 package main;
 
+import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
 
@@ -14,6 +15,10 @@ public class PokerCompare {
         if(isPairPoker(list1)||isPairPoker(list2)){
             return isPairPoker(list1)?list1:list2;
         }
+        if(isPairPoker(list1)&&isPairPoker(list2)){
+            return getRepeatNum(list1)>getRepeatNum(list2)?list1:list2;
+        }
+
         changeAllPokersNum(list1, list2);
         sortPoker(list1);
         sortPoker(list2);
@@ -29,18 +34,27 @@ public class PokerCompare {
         return null;
     }
     public static boolean isPairPoker(List<Poker> list){
-        int repeatCount = getRepeatCount(list);
+        List<Character> repeatList = getRepeat(list);
+        char repeatCount = repeatList.get(0);
         return repeatCount==2?true:false;
     }
+    public static Character getRepeatNum(List<Poker> list){
+        List<Character> repeatList = getRepeat(list);
+        return repeatList.get(1);
+    }
 
-    private static int getRepeatCount(List<Poker> list) {
-        int repeatCount = 1;
+    public static List<Character> getRepeat(List<Poker> list) {
+        List<Character> repeatList=new ArrayList<Character>();
+        char repeatCount = 1;char repeatNum = 0;
         for (int i = 0; i < list.size()-1; i++) {
             if (list.get(i).getNum() == list.get(i + 1).getNum()) {
+                repeatNum=list.get(i).getNum();
                 repeatCount++;
             }
         }
-        return repeatCount;
+        repeatList.add(repeatCount);
+        repeatList.add(repeatNum);
+        return repeatList;
     }
 
     private static void changeAllPokersNum(List<Poker> list1, List<Poker> list2) {

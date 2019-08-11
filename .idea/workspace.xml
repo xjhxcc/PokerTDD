@@ -7,6 +7,7 @@
       <change afterPath="$PROJECT_DIR$/../PokerHands/src/main/entity/Poker.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../PokerHands/src/main/ser/PokerCompare.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../PokerHands/src/main/test/PokerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/RepeatPoker.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../demo01/demo01.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../demo01/src/Android.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../demo01/src/IPhone.java" afterDir="false" />
@@ -28,6 +29,8 @@
       <change afterPath="$PROJECT_DIR$/../../mocking_exercise/.idea/modules.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../mocking_exercise/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../mocking_exercise/junit_test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PokerTDD/main/PokerCompareTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PokerTDD/main/PokerCompareTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/PokerCompare.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/PokerCompare.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/PokerCompareTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/PokerCompareTest.java" afterDir="false" />
     </list>
@@ -47,8 +50,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/PokerCompareTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="641">
-              <caret line="97" column="43" lean-forward="true" selection-start-line="97" selection-start-column="43" selection-end-line="97" selection-end-column="43" />
+            <state relative-caret-position="390">
+              <caret line="99" column="35" selection-start-line="99" selection-start-column="35" selection-end-line="99" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -78,11 +81,31 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/PokerCompare.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+            <state relative-caret-position="277">
+              <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1735#1736#0" expanded="true" />
+                <element signature="e#1362#1373#0" expanded="true" />
+                <element signature="e#2320#2321#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/RepeatPoker.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="625">
+              <caret line="25" column="56" selection-start-line="25" selection-start-column="56" selection-end-line="25" selection-end-column="56" />
+              <folding>
+                <element signature="e#131#132#0" expanded="true" />
+                <element signature="e#165#166#0" expanded="true" />
+                <element signature="e#216#217#0" expanded="true" />
+                <element signature="e#262#263#0" expanded="true" />
+                <element signature="e#295#296#0" expanded="true" />
+                <element signature="e#326#327#0" expanded="true" />
+                <element signature="e#372#373#0" expanded="true" />
+                <element signature="e#412#413#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -111,6 +134,7 @@
         <option value="$PROJECT_DIR$/PokerTDD.iml" />
         <option value="$PROJECT_DIR$/src/main/PokerTest.java" />
         <option value="$PROJECT_DIR$/src/main/Poker.java" />
+        <option value="$PROJECT_DIR$/src/main/RepeatPoker.java" />
         <option value="$PROJECT_DIR$/src/main/PokerCompareTest.java" />
         <option value="$PROJECT_DIR$/src/main/PokerCompare.java" />
       </list>
@@ -189,7 +213,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.PokerCompareTest.should_return_list2_given_23k95_4423Q">
+  <component name="RunManager" selected="JUnit.PokerCompareTest">
     <configuration name="PokerCompareTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PokerTDD" />
       <extension name="coverage">
@@ -201,6 +225,22 @@
       <option name="PACKAGE_NAME" value="main" />
       <option name="MAIN_CLASS_NAME" value="main.PokerCompareTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PokerCompareTest.should_return_list1_given_66k95_4423Q" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PokerTDD" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="main" />
+      <option name="MAIN_CLASS_NAME" value="main.PokerCompareTest" />
+      <option name="METHOD_NAME" value="should_return_list1_given_66k95_4423Q" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -221,7 +261,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PokerCompareTest.should_return_list2_given_AD3H4H5S6D_AND_KD5H6S7D8D" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PokerCompareTest.should_return_list2_given_66k95_4423Q" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PokerTDD" />
       <extension name="coverage">
         <pattern>
@@ -231,13 +271,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="main" />
       <option name="MAIN_CLASS_NAME" value="main.PokerCompareTest" />
-      <option name="METHOD_NAME" value="should_return_list2_given_AD3H4H5S6D_AND_KD5H6S7D8D" />
+      <option name="METHOD_NAME" value="should_return_list2_given_66k95_4423Q" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PokerCompareTest.should_return_list2_given_KD3H4H5S6D_AND_JD5H6S7D8D" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PokerCompareTest.should_return_true_when_call_isPairPoker_given_4423Q" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PokerTDD" />
       <extension name="coverage">
         <pattern>
@@ -247,42 +287,26 @@
       </extension>
       <option name="PACKAGE_NAME" value="main" />
       <option name="MAIN_CLASS_NAME" value="main.PokerCompareTest" />
-      <option name="METHOD_NAME" value="should_return_list2_given_KD3H4H5S6D_AND_JD5H6S7D8D" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PokerCompareTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="PokerTDD" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="main.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="main" />
-      <option name="MAIN_CLASS_NAME" value="main.PokerCompareTest" />
-      <option name="METHOD_NAME" value="test1" />
+      <option name="METHOD_NAME" value="should_return_true_when_call_isPairPoker_given_4423Q" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.PokerCompareTest.should_return_list2_given_KD3H4H5S6D_AND_JD5H6S7D8D" />
-      <item itemvalue="JUnit.PokerCompareTest.should_return_list2_given_AD3H4H5S6D_AND_KD5H6S7D8D" />
-      <item itemvalue="JUnit.PokerCompareTest" />
       <item itemvalue="JUnit.PokerCompareTest.should_return_list2_given_23k95_4423Q" />
-      <item itemvalue="JUnit.PokerCompareTest.test1" />
+      <item itemvalue="JUnit.PokerCompareTest.should_return_list2_given_66k95_4423Q" />
+      <item itemvalue="JUnit.PokerCompareTest.should_return_true_when_call_isPairPoker_given_4423Q" />
+      <item itemvalue="JUnit.PokerCompareTest.should_return_list1_given_66k95_4423Q" />
+      <item itemvalue="JUnit.PokerCompareTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.PokerCompareTest.should_return_list2_given_23k95_4423Q" />
-        <item itemvalue="JUnit.PokerCompareTest.test1" />
         <item itemvalue="JUnit.PokerCompareTest" />
-        <item itemvalue="JUnit.PokerCompareTest.should_return_list2_given_AD3H4H5S6D_AND_KD5H6S7D8D" />
-        <item itemvalue="JUnit.PokerCompareTest.should_return_list2_given_KD3H4H5S6D_AND_JD5H6S7D8D" />
+        <item itemvalue="JUnit.PokerCompareTest.should_return_list1_given_66k95_4423Q" />
+        <item itemvalue="JUnit.PokerCompareTest.should_return_list2_given_23k95_4423Q" />
+        <item itemvalue="JUnit.PokerCompareTest.should_return_true_when_call_isPairPoker_given_4423Q" />
+        <item itemvalue="JUnit.PokerCompareTest.should_return_list2_given_66k95_4423Q" />
       </list>
     </recent_temporary>
   </component>
@@ -300,34 +324,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PokerCompareTest - 2019.08.11 at 19h 21m 57s.xml">
-      <configuration name="PokerCompareTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PokerCompareTest_should_return_list2_given_23k95_4423Q - 2019.08.11 at 19h 25m 38s.xml">
-      <configuration name="PokerCompareTest.should_return_list2_given_23k95_4423Q" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PokerCompareTest_should_return_list2_given_23k95_4423Q - 2019.08.11 at 19h 25m 49s.xml">
-      <configuration name="PokerCompareTest.should_return_list2_given_23k95_4423Q" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PokerCompareTest_test1 - 2019.08.11 at 19h 44m 45s.xml">
-      <configuration name="PokerCompareTest.test1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PokerCompareTest_test1 - 2019.08.11 at 19h 45m 18s.xml">
-      <configuration name="PokerCompareTest.test1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PokerCompareTest_test1 - 2019.08.11 at 19h 45m 29s.xml">
-      <configuration name="PokerCompareTest.test1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PokerCompareTest_test1 - 2019.08.11 at 19h 45m 39s.xml">
-      <configuration name="PokerCompareTest.test1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PokerCompareTest_test1 - 2019.08.11 at 19h 46m 34s.xml">
-      <configuration name="PokerCompareTest.test1" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="PokerCompareTest_test1 - 2019.08.11 at 19h 46m 43s.xml">
       <configuration name="PokerCompareTest.test1" configurationId="JUnit" />
     </history-entry>
     <history-entry file="PokerCompareTest_should_return_list2_given_23k95_4423Q - 2019.08.11 at 19h 47m 40s.xml">
+      <configuration name="PokerCompareTest.should_return_list2_given_23k95_4423Q" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PokerCompareTest_should_return_list2_given_23k95_4423Q - 2019.08.11 at 19h 50m 52s.xml">
+      <configuration name="PokerCompareTest.should_return_list2_given_23k95_4423Q" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PokerCompareTest_should_return_list2_given_66k95_4423Q - 2019.08.11 at 19h 52m 49s.xml">
+      <configuration name="PokerCompareTest.should_return_list2_given_66k95_4423Q" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PokerCompareTest_should_return_true_when_call_isPairPoker_given_4423Q - 2019.08.11 at 20h 05m 02s.xml">
+      <configuration name="PokerCompareTest.should_return_true_when_call_isPairPoker_given_4423Q" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PokerCompareTest_should_return_true_when_call_isPairPoker_given_4423Q - 2019.08.11 at 20h 05m 15s.xml">
+      <configuration name="PokerCompareTest.should_return_true_when_call_isPairPoker_given_4423Q" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PokerCompareTest_should_return_true_when_call_isPairPoker_given_4423Q - 2019.08.11 at 20h 05m 47s.xml">
+      <configuration name="PokerCompareTest.should_return_true_when_call_isPairPoker_given_4423Q" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PokerCompareTest_should_return_true_when_call_isPairPoker_given_4423Q - 2019.08.11 at 20h 16m 43s.xml">
+      <configuration name="PokerCompareTest.should_return_true_when_call_isPairPoker_given_4423Q" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PokerCompareTest_should_return_true_when_call_isPairPoker_given_4423Q - 2019.08.11 at 20h 17m 00s.xml">
+      <configuration name="PokerCompareTest.should_return_true_when_call_isPairPoker_given_4423Q" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PokerCompareTest_should_return_list2_given_23k95_4423Q - 2019.08.11 at 20h 17m 21s.xml">
       <configuration name="PokerCompareTest.should_return_list2_given_23k95_4423Q" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -345,7 +369,7 @@
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" />
+      <window_info anchor="bottom" id="Messages" weight="0.32936078" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.20801733" />
@@ -402,10 +426,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/RepeatPoker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="625">
+          <caret line="25" column="56" selection-start-line="25" selection-start-column="56" selection-end-line="25" selection-end-column="56" />
+          <folding>
+            <element signature="e#131#132#0" expanded="true" />
+            <element signature="e#165#166#0" expanded="true" />
+            <element signature="e#216#217#0" expanded="true" />
+            <element signature="e#262#263#0" expanded="true" />
+            <element signature="e#295#296#0" expanded="true" />
+            <element signature="e#326#327#0" expanded="true" />
+            <element signature="e#372#373#0" expanded="true" />
+            <element signature="e#412#413#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/PokerCompareTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="641">
-          <caret line="97" column="43" lean-forward="true" selection-start-line="97" selection-start-column="43" selection-end-line="97" selection-end-column="43" />
+        <state relative-caret-position="390">
+          <caret line="99" column="35" selection-start-line="99" selection-start-column="35" selection-end-line="99" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -414,11 +455,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/PokerCompare.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+        <state relative-caret-position="277">
+          <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1735#1736#0" expanded="true" />
+            <element signature="e#1362#1373#0" expanded="true" />
+            <element signature="e#2320#2321#0" expanded="true" />
           </folding>
         </state>
       </provider>
