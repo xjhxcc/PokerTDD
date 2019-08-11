@@ -101,10 +101,8 @@ public class PokerCompareTest {
         Poker poker9 = new Poker('3', 'C');
         Poker poker10 = new Poker('Q', 'C');
         List<Poker> list2=Arrays.asList(poker6,poker7,poker8,poker9,poker10);
-        List<Character> repeatCount = PokerCompare.getRepeat(list2);
         boolean pairPoker = PokerCompare.isPairPoker(Arrays.asList(poker6, poker7, poker8, poker9, poker10));
         Assert.assertEquals(true,pairPoker);
-        Assert.assertEquals(2,repeatCount.get(0).charValue());
     }
     @Test
     public void should_return_list1_given_66k95_4423Q(){
@@ -125,6 +123,27 @@ public class PokerCompareTest {
         List<Poker> result = PokerCompare.comparePoker(list1,list2);
         //then
         Assert.assertEquals(list1,result);
+
+    }
+    @Test
+    public void should_return_list1_given_66K95_4443Q(){
+
+        Poker poker1 = new Poker('6', 'H');
+        Poker poker2 = new Poker('6', 'D');
+        Poker poker3 = new Poker('K', 'H');
+        Poker poker4 = new Poker('9', 'S');
+        Poker poker5 = new Poker('5', 'S');
+        List<Poker> list1=Arrays.asList(poker1,poker2,poker3,poker4,poker5);
+        Poker poker6 = new Poker('4', 'S');
+        Poker poker7 = new Poker('4', 'D');
+        Poker poker8 = new Poker('4', 'C');
+        Poker poker9 = new Poker('3', 'C');
+        Poker poker10 = new Poker('Q', 'C');
+        List<Poker> list2=Arrays.asList(poker6,poker7,poker8,poker9,poker10);
+        //when
+        List<Poker> result = PokerCompare.comparePoker(list1,list2);
+        //then
+        Assert.assertEquals(list2,result);
 
     }
 
