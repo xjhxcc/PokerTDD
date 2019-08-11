@@ -11,6 +11,10 @@ public class PokerCompare {
         return poker1.getNum() >= poker2.getNum() ? poker1 : poker2;
     }
     public static List<Poker> comparePoker(List<Poker> list1, List<Poker> list2) {
+        for(int i = 0;i < list1.size();i++){
+            changePokerNum(list1.get(i));
+            changePokerNum(list2.get(i));
+        }
         list1.sort(Comparator.comparingInt(Poker::getNum).reversed());
         list2.sort(Comparator.comparingInt(Poker::getNum).reversed());
         Poker poker1;
@@ -23,5 +27,24 @@ public class PokerCompare {
             }
         }
         return null;
+    }
+    private static void changePokerNum(Poker poker){
+        switch(poker.getNum()){
+            case 'T':
+                poker.setNum('A');
+                break;
+            case 'J':
+                poker.setNum('B');
+                break;
+            case 'Q':
+                poker.setNum('C');
+                break;
+            case 'K':
+                poker.setNum('D');
+                break;
+            case 'A':
+                poker.setNum('E');
+                break;
+        }
     }
 }
