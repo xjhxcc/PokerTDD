@@ -7,7 +7,6 @@
       <change afterPath="$PROJECT_DIR$/../PokerHands/src/main/entity/Poker.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../PokerHands/src/main/ser/PokerCompare.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../PokerHands/src/main/test/PokerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../demo01/demo01.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../demo01/src/Android.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../demo01/src/IPhone.java" afterDir="false" />
@@ -29,9 +28,6 @@
       <change afterPath="$PROJECT_DIR$/../../mocking_exercise/.idea/modules.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../mocking_exercise/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../mocking_exercise/junit_test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PokerTDD/main/PokerCompare.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PokerTDD/main/PokerCompare.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PokerTDD/main/PokerCompareTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PokerTDD/main/PokerCompareTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/PokerCompare.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/PokerCompare.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/PokerCompareTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/PokerCompareTest.java" afterDir="false" />
     </list>
@@ -51,8 +47,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/PokerCompareTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="246">
-              <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+            <state relative-caret-position="425">
+              <caret line="33" column="43" lean-forward="true" selection-start-line="33" selection-start-column="43" selection-end-line="33" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -82,8 +78,12 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/PokerCompare.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+            <state relative-caret-position="225">
+              <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+              <folding>
+                <element signature="e#284#285#0" expanded="true" />
+                <element signature="e#311#312#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -325,8 +325,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/PokerCompareTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+        <state relative-caret-position="425">
+          <caret line="33" column="43" lean-forward="true" selection-start-line="33" selection-start-column="43" selection-end-line="33" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -335,8 +335,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/PokerCompare.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+        <state relative-caret-position="225">
+          <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+          <folding>
+            <element signature="e#284#285#0" expanded="true" />
+            <element signature="e#311#312#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
